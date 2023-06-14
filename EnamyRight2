@@ -1,0 +1,16 @@
+package fish;
+
+public class EnamyRight2 extends Enamy{
+	EnamyRight2(){
+		this.x=1400;
+		dir=-1;
+		this.y=(int)(Math.random()*700+100);
+		this.width=100;
+		this.height=100;
+		this.speed=10;
+		this.count=2;
+		this.type=2;
+		this.img=GameUtils.enamyr2;
+	}
+
+}
