@@ -1,0 +1,20 @@
+package fish;
+
+import java.awt.Rectangle;
+
+public class EnamyLeft3 extends Enamy{
+	EnamyLeft3(){
+		this.x=-300;
+		this.y=(int)(Math.random()*700+100);
+		this.width=300;
+		this.height=150;
+		this.speed=15;
+		this.count=3;
+		this.type=3;
+		this.img=GameUtils.enamyl3;
+	}
+	public Rectangle getRec() {
+		return new Rectangle(x+40,y+30,width-80,height-60);
+	}
+
+}
